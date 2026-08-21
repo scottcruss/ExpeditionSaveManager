@@ -15,13 +15,12 @@ Save files are saved in the folder: TSaves in the Peak folder. Configurable from
 All save files are stored in json.
 
 Known issues:  
-Airport loading is not functional since Peak 2 was released. A new game must be started from the Gate Kiosk to the Beach. At the shore a saved game can be loaded to any location.  
 There are 2 loading methods. Fast Load and Kiosk. Kiosk mode is not functional at this time since Peak 2 was release. Kiosk mode was a complete slower load that reset everything including luggage. Fast Load does not reset luggage or Scout Statue but is a faster load.  
 Do not open any luggage until all players have loaded or the luggage might not be accessible after all players sync.
 
 *Manual Installation:  
 1. Download and install BepInEx.
-2. Run Peak to Generate BepINEx plugins folder.
+2. Run Peak to Generate BepINEx plugins folder.  
 
 3. Download ExpeditionSaveManager.
 4. Open PEAK Installation: Steam -> PEAK -> Manage -> Browse Local Files
