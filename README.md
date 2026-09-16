@@ -1,23 +1,51 @@
 <img width="50%" alt="Image" src="https://github.com/user-attachments/assets/2a16d211-285a-4ad6-b4b3-420fe269d01c" />
 
 # ExpeditionSaveManager
+<img width="200" align="left" alt="Image" src="https://github.com/user-attachments/assets/c8f1c4bf-2850-4f89-aca2-ddf0176ad851" />
 
-Peak mod Expedition Save Manager: Multiplayer load and save from any location! Complete state including player inventory and all world items saved and restored. Expeditions of saved files are grouped together to allow multiple Expeditions with different players!
+Peak mod Expedition Save Manager: 
 
-A new Expedition is created automatically when the first save occurs upon hosting a new game. All new saves will be saved to the Expedition when an Expedition is loaded or created.
+Multiplayer load and save from any location! Complete state including player inventory and all world items saved and restored. Expeditions of saved files are grouped together to allow multiple Expeditions with different players on different days!
+<br clear="left" />
+
+# Expeditions Listing
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/3ed34865-def7-4412-bb23-335becb290d8" />
+
+A new Expedition is created automatically when the first save occurs upon hosting a new game. All new saves will be saved to the Expedition when an Expedition is loaded or created. A new Expedition can be created at any time by starting a new game at the Kiosk from the Airport.
+
+<img width="48" align="left" alt="Image" src="https://github.com/user-attachments/assets/6487da04-7e4f-4e69-b524-3074fe3106db" />
+Right clicking an Expedition or clicking purple crayon allows adding a note to an Expedition.
+<br clear="left" />
+<img width="48" align="left" alt="Image" src="https://github.com/user-attachments/assets/43f8bab2-30ed-4c1f-8972-027b777d6dad" />
+Clicking the Trashcan on the left deletes the entire Expedition including all saved files for that Expedition.
+<br clear="left" />
+
 ***
-Autosave option and configurable interval. On by default for new installs.
+
+# Saved Games
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/adb70916-c9cc-4a97-9b57-978a325f53c4" />
+
+Loading from Airport performs a full reset and load, including luggage, Altair, etc. Loading from in game performs an incredibly fast reload but luggage does not reset. 
+
+New Return to Airport button to take all players back to Airport for a full reset and load.
+
+New Correction feature button allows correcting game items offset that can occur on only older versions of Peak saves after a major Peak update. aka Apples or Coconuts floating in the air. When enabled this will fix all out of alignment objects. It does not impact new saved files. Correction should not need to be disabled at any time but added as a safe guard. It does not slow down the loading of saved games. This should allow pre update saves to continue to work until the peak is reached!
+
+Autosave option and configurable interval. On by default for new installs. Incredibly fast!
 Configurable from the Settings option in the mod or from BepInEx/config/com.scr.peakexpeditionsavemanager.cfg
 
 Save files are saved in the folder: PeakTSaves in the Peak folder. 
 Configurable from BepInEx/config/com.scr.peakexpeditionsavemanager.cfg.
 All save files are stored in json.
+
 ***
 Known issues:  
-Open luggage and Scout Statue states only reset after restarting from the Airport. Placed items like ropes, chains, shelf fungus, etc are not removed between loading saved files. Dead Host requires returning to the Airport to reset. 
-Complete scene states only reset after going back to the Airport.
+Open luggage and Scout Statue states only reset after restarting from the Airport. Placed items like ropes, chains, shelf fungus, etc are not removed between fast loading saved files unless starting from the Airport. 
 
-There are 2 loading methods. Fast Load and Kiosk. Kiosk mode is not functional at this time since Peak 2 was release. Kiosk mode was a complete slower load that reset everything including luggage. Fast Load does not reset luggage or Scout Statue but is a faster load.  
+If glitches occur, complete scene states only reset after going back to the Airport.
+If a player glitches, clicking 4 for backpack can reset player or loading the same saved game a 2nd time.
+
+There are 2 loading methods. Fast Load and Kiosk. Kiosk mode is only functional at this time since Peak 2 was release from the Airport. Kiosk mode was a complete slower load that reset everything including luggage. Fast Load does not reset luggage or Scout Statue but is a faster load.  
 Do not open any luggage until all players have loaded or the luggage might not be accessible after all players sync.
 ***
 *Manual Installation:
