@@ -8,6 +8,8 @@ Peak mod Expedition Save Manager:
 Multiplayer load and save from any location! Complete state including player inventory and all world items saved and restored. Expeditions of saved files are grouped together to allow multiple Expeditions with different players on different days!
 <br clear="left" />
 
+***
+
 # Expeditions Listing
 <img width="800" alt="Image" src="https://github.com/user-attachments/assets/3ed34865-def7-4412-bb23-335becb290d8" />
 
@@ -16,9 +18,12 @@ A new Expedition is created automatically when the first save occurs upon hostin
 <img width="48" align="left" alt="Image" src="https://github.com/user-attachments/assets/6487da04-7e4f-4e69-b524-3074fe3106db" />
 Right clicking an Expedition or clicking purple crayon allows adding a note to an Expedition.
 <br clear="left" />
+
+
 <img width="48" align="left" alt="Image" src="https://github.com/user-attachments/assets/43f8bab2-30ed-4c1f-8972-027b777d6dad" />
 Clicking the Trashcan on the left deletes the entire Expedition including all saved files for that Expedition.
 <br clear="left" />
+
 
 ***
 
