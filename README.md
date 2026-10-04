@@ -1,17 +1,22 @@
-<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/2a16d211-285a-4ad6-b4b3-420fe269d01c" />
+<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/731c6c5a-051d-4cfe-a6a7-50482d712099" />
 
+<p>
 # ExpeditionSaveManager
 <img width="200" align="left" alt="Image" src="https://github.com/user-attachments/assets/c8f1c4bf-2850-4f89-aca2-ddf0176ad851" />
 
 Peak mod Expedition Save Manager: 
 
-Multiplayer load and save from any location! Complete state including player inventory and all world items saved and restored. Expeditions of saved files are grouped together to allow multiple Expeditions with different players on different days!
-<br clear="left" />
+Multiplayer load and save from any location! Complete state including player inventory and all world items saved and restored. Expeditions of saved files are grouped together to allow multiple Expeditions with different players on different days! 
+
+(Now includes a Timeout aka Pause like feature!)
+</p>
+<br clear="all">
+
 
 ***
-
+***
 # Expeditions Listing
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/3ed34865-def7-4412-bb23-335becb290d8" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/1842b07f-5803-4195-86a0-790cfe113ada" />
 
 A new Expedition is created automatically when the first save occurs upon hosting a new game. All new saves will be saved to the Expedition when an Expedition is loaded or created. A new Expedition can be created at any time by starting a new game at the Kiosk from the Airport.
 
@@ -28,7 +33,7 @@ Clicking the Trashcan on the left deletes the entire Expedition including all sa
 ***
 
 # Saved Games
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/adb70916-c9cc-4a97-9b57-978a325f53c4" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/ead245f7-a321-4070-83d5-52be897fb31c" />
 
 Loading from Airport performs a full reset and load, including luggage, Altair, etc. Loading from in game performs an incredibly fast reload but luggage does not reset. 
 
@@ -42,6 +47,13 @@ Configurable from the Settings option in the mod or from BepInEx/config/com.scr.
 Save files are saved in the folder: PeakTSaves in the Peak folder. 
 Configurable from BepInEx/config/com.scr.peakexpeditionsavemanager.cfg.
 All save files are stored in json.
+
+***
+
+# Timeout (aka Pause)
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/c6895dc8-d40a-4fad-a64e-1ec76ec9aa14" />
+
+NEW Timeout feature added! Since pausing is not possible in multiplayer mode without all the players having the mod, added a Timeout feature like a pause. All players temporary transported and restricted to the prior campfire. Fog, Time, hunger, Day/Night clocks are all suspended during Timeout. When Timeout is ended, players are restored to prior location and environment is reset back to prior state.
 
 ***
 Known issues:  
