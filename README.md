@@ -1,4 +1,4 @@
-<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/731c6c5a-051d-4cfe-a6a7-50482d712099" />
+<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/8a2117ad-5238-4abd-ab38-332612facba5" />
 
 <p>
 
@@ -17,17 +17,12 @@ Now includes a Timeout feature! (aka Multiplayer Pause)
 
 
 
-
-
-
-
-
-
+***
 
 ***
-***
+
 # Expeditions Listing
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/1842b07f-5803-4195-86a0-790cfe113ada" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/8f3bd59a-2489-4f5c-bad6-5785f150fe0a" />
 
 A new Expedition is created automatically when the first save occurs upon hosting a new game. All new saves will be saved to the Expedition when an Expedition is loaded or created. A new Expedition can be created at any time by starting a new game at the Kiosk from the Airport.
 
@@ -45,7 +40,7 @@ Clicking the Trashcan on the left deletes the entire Expedition including all sa
 
 # Saved Games
 
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/ead245f7-a321-4070-83d5-52be897fb31c" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/4188f57a-1377-47de-b4dc-d7c54e0f99b7" />
 
 Loading from Airport performs a full reset and load, including luggage, Altair, etc. Loading from in game performs an incredibly fast reload but luggage does not reset. 
 
@@ -64,7 +59,7 @@ All save files are stored in json.
 
 # Timeout (aka Multiplayer Pause)
 
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/c6895dc8-d40a-4fad-a64e-1ec76ec9aa14" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/903fb0e2-213a-4110-a573-7eac1ec4cd7a" />
 
 NEW Timeout feature added! (Pause)
 Since pausing is not possible in multiplayer mode without all the players having the mod, added a Timeout feature like a pause. All players temporary transported and restricted to the prior campfire. Fog, Time, hunger, Day/Night clocks are all suspended during Timeout. When Timeout is ended, players are restored to prior location, state and environment is reset back to prior state.
@@ -72,7 +67,8 @@ Since pausing is not possible in multiplayer mode without all the players having
 ***
 Known issues:  
 Open luggage and Scout Statue states only reset after restarting from the Airport. Placed items like ropes, chains, shelf fungus, etc are not removed between fast loading saved files unless starting from the Airport. 
-Skeleton Player that read Books of Bones appearance will not restore correctly. They appear normal but still have the same attributes from the Book of Bones.
+
+Loading a Citadel biome while in the Void does not restore correctly. Going back to Airport first is required.
 
 If a player or backpack glitches occur, clicking 4 for backpack can reset player or loading the same saved game a 2nd time should correct issues.
 A complete scene state only resets after going back to the Airport.
