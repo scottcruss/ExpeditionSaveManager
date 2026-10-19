@@ -17,10 +17,31 @@ Now includes a Timeout feature! (aka Multiplayer Pause)
 
 
 
-***
+
+
+
+
 
 ***
 
+
+
+
+***
+
+***
+
+
+
+
+***
+
+***
+
+
+
+
+***
 # Expeditions Listing
 <img width="800" alt="Image" src="https://github.com/user-attachments/assets/8f3bd59a-2489-4f5c-bad6-5785f150fe0a" />
 
@@ -62,7 +83,9 @@ All save files are stored in json.
 <img width="800" alt="Image" src="https://github.com/user-attachments/assets/903fb0e2-213a-4110-a573-7eac1ec4cd7a" />
 
 NEW Timeout feature added! (Pause)
-Since pausing is not possible in multiplayer mode without all the players having the mod, added a Timeout feature like a pause. All players temporary transported and restricted to the prior campfire. Fog, Time, hunger, Day/Night clocks are all suspended during Timeout. When Timeout is ended, players are restored to prior location, state and environment is reset back to prior state.
+Since pausing is not possible in multiplayer mode without all the players having the mod, added a Timeout feature like a pause. All players temporary transported and restricted to the prior campfire. Fog, Time, hunger, Day/Night clocks are all suspended during Timeout. When Timeout is ended, players are restored to prior location, state and environment is reset back to prior state. 
+
+New feature: Host controls blocking accessing items at Campfire during Timeout.
 
 ***
 Known issues:  
@@ -87,5 +110,11 @@ Do not open any luggage until all players have loaded or the luggage might not b
 7. Run PEAK and Host Game.
 8. Press ESC and there will be a new menu option below the Settings button called Expedition Save Manager.
 ***
-Report Bugs and comments:
+*Report Bugs:
 https://github.com/scottcruss/ExpeditionSaveManager/issues
+***
+*Comments and suggestions:
+https://github.com/scottcruss/ExpeditionSaveManager/discussions
+***
+*Donations:
+https://ko-fi.com/scottcruss
