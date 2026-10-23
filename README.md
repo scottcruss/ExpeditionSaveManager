@@ -1,3 +1,17 @@
+# 10/22/26 - Regarding the new Peak co-op update:
+
+*Timeout (pause) appears to work perfectly!
+
+*Expedition Save Manager issues:
+1. Restoring from the Airport does not work at this time.
+2. Starting a new game to biome Shore and then loading a saved file appears to work for post update saves. Not all Biomes tested yet.
+3. Starting a new game to biome Shore and loading old saved files unknown at this time.
+4. New saves work.
+5. Working on fixes.
+
+***
+
+***
 <img width="50%" alt="Image" src="https://github.com/user-attachments/assets/8a2117ad-5238-4abd-ab38-332612facba5" />
 
 <p>
