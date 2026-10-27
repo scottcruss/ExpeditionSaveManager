@@ -1,15 +1,17 @@
-# 10/23/26 - Regarding the new Peak co-op update:
+# 10/27/26 - The new Peak v3 crossplay update:
 
-*Timeout (pause) works perfectly!
+*Expedition Save Manager 2.x:
+- Now version 2 for full support of Peak v3 crossplay.
+- New saves and loads fully functional.
+- Pre Peak v3 crossplay saves and load fully functional with closest Biome match.
+- Redesign of stored index of Biome tables for easier future Biome maintenance.
 
-*Expedition Save Manager:
-- New Peak v3.0.1 saves and loads work correctly.
-- Temporary fixes for loading old pre v3.0.1 saves.
+*Timeout (pause) works perfectly for all Biomes!
 
 ***
 
 ***
-<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/8a2117ad-5238-4abd-ab38-332612facba5" />
+<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/0ba152f6-9c79-4319-9fe0-acf97b4ffa24" />
 
 <p>
 
@@ -17,7 +19,7 @@
 # ExpeditionSaveManager
 <img width="200" align="left" alt="Image" src="https://github.com/user-attachments/assets/c8f1c4bf-2850-4f89-aca2-ddf0176ad851" />
 
-Peak mod Expedition Save Manager and Timeout (Multiplayer Pause): 
+Peak v3 mod Expedition Save Manager and Timeout (Multiplayer Pause): 
 
 Multiplayer load and save from any location! Complete state including player inventory and all world items saved and restored. Expeditions of saved files are grouped together to allow multiple Expeditions with different players on different days! 
 
@@ -91,7 +93,8 @@ All save files are stored in json.
 
 # Timeout (aka Multiplayer Pause)
 
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/903fb0e2-213a-4110-a573-7eac1ec4cd7a" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/59b31138-3aa6-48f8-9c98-5b09f00ad5f9" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/3bd5ec1e-5478-4905-8c40-b997901d7bd3" />
 
 NEW Timeout feature added! (Pause)
 Since pausing is not possible in multiplayer mode without all the players having the mod, added a Timeout feature like a pause. All players temporary transported and restricted to the prior campfire. Fog, Time, hunger, Day/Night clocks are all suspended during Timeout. When Timeout is ended, players are restored to prior location, state and environment is reset back to prior state. 
