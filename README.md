@@ -1,4 +1,4 @@
-# 11/01/26 - The new Peak v3 crossplay update:
+# The new Peak v3 crossplay update:
 
 *Expedition Save Manager 2:
 - Now version 2 for full support of Peak v3 crossplay.
@@ -11,13 +11,13 @@
 ***
 
 ***
-<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/f51a522a-2283-427c-a123-c54e12895571" />
+<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/a0a2daec-d383-4e5b-ab8d-50eeaaa593a3" />
 
 <p>
 
   
 # ExpeditionSaveManager
-<img width="200" align="left" alt="Image" src="https://github.com/user-attachments/assets/c8f1c4bf-2850-4f89-aca2-ddf0176ad851" />
+<img width="200" align="left" alt="Image" src="https://github.com/user-attachments/assets/d62500e4-9227-4c02-b5cf-e72fb234d622" />
 
 Peak v3 mod Expedition Save Manager and Timeout (Multiplayer Pause): 
 
@@ -107,8 +107,8 @@ All save files are stored in json.
 
 # Timeout (aka Multiplayer Pause)
 
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/c1104426-4c70-4408-b70f-f75ab166710a" />
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/502fae7a-0ae2-4563-af98-830f361f6628" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/09349302-cb35-4172-8d93-c277333f2d39" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/107d7552-2f09-4a38-8948-8bf260297c30" />
 
 Since pausing is not possible in multiplayer without all players having the mod, added a Timeout feature like a pause controlled by the Host. All players temporary transported and restricted to the prior campfire. Fog, Time, hunger, Day/Night clocks are all suspended during Timeout. When Timeout is ended, players are restored to prior location, state and environment is reset back to prior state. 
 Timeout Host (Settings) controlled feature blocking accessing items at Campfire during Timeout is available.
