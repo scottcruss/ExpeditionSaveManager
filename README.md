@@ -58,7 +58,7 @@ Also includes a Timeout feature! (aka Multiplayer Pause)
 # Expeditions Listing
 Expeditions are grouped saved files.
 
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/8f3bd59a-2489-4f5c-bad6-5785f150fe0a" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/e4c12b3f-2dca-46e1-8063-0b34a405d5fc" />
 
 A new Expedition is created automatically when the first save occurs upon hosting a new game. All new saves will be saved to the Expedition when an Expedition is loaded or created. A new Expedition can be created at any time by starting a new game at the Kiosk from the Airport.
 
@@ -76,10 +76,21 @@ Clicking the Trashcan on the left deletes the entire Expedition including all sa
 
 # Saved Games
 
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/4188f57a-1377-47de-b4dc-d7c54e0f99b7" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/105db60c-75b9-421e-8ba3-3afa16c07a7b" />
 
-There are 2 loading methods (Settings option). Fast Load (default) and Airport Kiosk mode. Airport Kiosk mode is a complete slower load that resets everything including luggage. Fast Load does not reset luggage or Scout Statue but is an incredibly faster load.  
+There are 2 loading methods (Settings option). Fast Load (default) and Airport Kiosk mode. Airport Kiosk mode is a complete slower load that resets everything including luggage and Scout Statue Altar. Fast Load does not reset luggage or Scout Statue but is an incredibly faster load.  
 Do not open any luggage during Fast Load until all players have loaded or the luggage might not be accessible after all players sync.
+
+New Added option for Host to select Biome when loading an old unsupported Biome group. Feature enabled in Load Settings. Changing Replacement Level Picked Automatically to Host Picks Replacement Level from List.
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/3e089b21-7d95-4379-bfee-2778e47e143e" />
+
+New added popup notifications when loading saved files.
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/51994ca9-9c47-42c1-8f22-a466ea5c6cba" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/7d5df4a7-d128-41eb-bcde-7802380c16bb" />
+
+New added popup shows the players saved in the Expedition and if any players are missing.
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/1c925146-54f9-4976-8cc1-8e8708c439f2" />
+
 
 Return to Airport button to take all players back to Airport.
 
@@ -96,8 +107,8 @@ All save files are stored in json.
 
 # Timeout (aka Multiplayer Pause)
 
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/59b31138-3aa6-48f8-9c98-5b09f00ad5f9" />
-<img width="800" alt="Image" src="https://github.com/user-attachments/assets/3bd5ec1e-5478-4905-8c40-b997901d7bd3" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/c1104426-4c70-4408-b70f-f75ab166710a" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/502fae7a-0ae2-4563-af98-830f361f6628" />
 
 Since pausing is not possible in multiplayer without all players having the mod, added a Timeout feature like a pause controlled by the Host. All players temporary transported and restricted to the prior campfire. Fog, Time, hunger, Day/Night clocks are all suspended during Timeout. When Timeout is ended, players are restored to prior location, state and environment is reset back to prior state. 
 Timeout Host (Settings) controlled feature blocking accessing items at Campfire during Timeout is available.
