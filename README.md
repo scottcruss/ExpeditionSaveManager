@@ -4,7 +4,8 @@
 - Now version 2 for full support of Peak v3 crossplay.
 - New saves and loads fully functional.
 - Pre Peak v3 crossplay saves and load fully functional with closest Biome match.
-- "Airport Kiosk load" mode now fully functional again. 
+- "Airport Kiosk load" mode now fully functional again.
+- Usage Stats added.
 
 *Timeout (Multiplayer pause) works perfectly for all Biomes!
 
