@@ -1,6 +1,7 @@
 # The new Peak v3 crossplay update:
 
 *Expedition Save Manager 2:
+- Beta release of support for TrueFinalAscent mod added!
 - Now version 2 for full support of Peak v3 crossplay.
 - New saves and loads fully functional.
 - Pre Peak v3 crossplay saves and load fully functional with closest Biome match.
@@ -83,7 +84,9 @@ There are 2 loading methods (Settings option). Fast Load (default) and Airport K
 Do not open any luggage during Fast Load until all players have loaded or the luggage might not be accessible after all players sync.
 
 New Added option for Host to select Biome when loading an old unsupported Biome group. Feature enabled in Load Settings. Changing Replacement Level Picked Automatically to Host Picks Replacement Level from List.
+
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/3e089b21-7d95-4379-bfee-2778e47e143e" />
+
 
 New added popup notifications when loading saved files.
 <img width="800" alt="Image" src="https://github.com/user-attachments/assets/51994ca9-9c47-42c1-8f22-a466ea5c6cba" />
@@ -105,7 +108,22 @@ Configurable from BepInEx/config/com.scr.peakexpeditionsavemanager.cfg.
 All save files are stored in json.
 
 ***
+# TrueFinalAscent mod support added.
+<img width="128" height="128" alt="truefinalascent-icon" src="https://github.com/user-attachments/assets/13a73161-06d9-44fc-87d7-1b8c3efa9cc5" />
 
+Beta release of support for TrueFinalAscent mod added. 
+
+TFA mod detection enabled.
+
+Ability to save and load TFA runs.
+
+Apocalypse mode supported for standard Peak runs. Including loading a prior save with Apocalypse mod enabled or disabled.
+
+Timeout support added for TFA runs including Apocalypse with cycle timing restored and clock cycles restored.
+
+Daily runs not supported for Leaderboard.
+
+***
 # Timeout (aka Multiplayer Pause)
 
 <img width="800" alt="Image" src="https://github.com/user-attachments/assets/09349302-cb35-4172-8d93-c277333f2d39" />
